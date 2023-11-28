@@ -1,3 +1,4 @@
-def multiply_by_three_and_return(a):
-    result = a * 3
+def magic_calculation(a, b):
+    result = 98
+    result += a ** b
     return result
