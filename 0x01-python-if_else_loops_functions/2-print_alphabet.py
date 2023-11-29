@@ -1,3 +1,3 @@
-#!/usr/bin/python
-3for char in range(ord('a'), ord('z') + 1):
-    print(chr(char), end="")
+#!/usr/bin/python3
+or char in range(ord('a'), ord('z') + 1):
+    print(f"{chr(char)}", end='')
