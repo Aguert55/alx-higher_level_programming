@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-for tens in range(10):
-    for ones in range(tens + 1, 10):
-        if tens == 8 and ones == 9:
-            print("{:d}{:d}".format(tens, ones))
+for i in range(9):
+    for j in range(i + 1, 10):
+        if i == 8:
+            print("{}{}".format(i, j))
         else:
-            print("{:d}{:d}, ".format(tens, ones), end='')
+            print("{}{}".format(i, j), end=", ")
 
