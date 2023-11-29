@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 for num in range(99):
-    print("Decimal: {:2d}   Hexadecimal: {:02X}".format(num, num))
+    print("Dec: {:<3d} | Hex: {:02X}".format(num, num))
 
